@@ -6,8 +6,8 @@
 
   (title_block
     (title "Hardware version of Z-Controller (SD Card)")
-    (date "2024-08-21")
-    (rev "V 0.1")
+    (date "2024-08-26")
+    (rev "0.3")
     (company "Mak7ym / 7FFD")
   )
 
