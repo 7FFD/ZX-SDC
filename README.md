@@ -32,3 +32,9 @@ Carefully check all signals, they are all important! As an example: /WAIT.
 ## Board preview
 ![Board, Rev 0.3](/zx-sdc-3d-rev0.3.png)
 
+## Prototype
+![Prototype board](/zx-sdc-prototype-board.JPG)
+
+![FATALL running](/zx-sdc-prototype-work.JPG)
+
+
