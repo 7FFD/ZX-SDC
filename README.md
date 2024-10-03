@@ -26,3 +26,9 @@ Data Port: 0x57
 Because current board design was done for ZXBUS, if you want to connect to your ZX Spectrum clone then you will need to solder adapter based on documentation for your computer.
 Carefully check all signals, they are all important! As an example: /WAIT.
 
+## Schematic preview
+![Schematic, Rev 0.3](/zx-sdc-sch-rev0.3.png)
+
+## Board preview
+![Board, Rev 0.3](/zx-sdc-3d-rev0.3.png)
+
