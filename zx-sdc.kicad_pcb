@@ -8,7 +8,7 @@
   (title_block
     (title "ZX SDC / Hardware version of z-controller")
     (date "2024-10-01")
-    (rev "0.1")
+    (rev "0.3")
     (company "Maksym / 7FFD")
     (comment 1 "http://7ffd.geektimes.eu/")
     (comment 2 "KYIV, UKRAINE")
