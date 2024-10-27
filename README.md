@@ -37,4 +37,15 @@ Carefully check all signals, they are all important! As an example: /WAIT.
 
 ![FATALL running](/zx-sdc-prototype-work.JPG)
 
+## Assembled and working board
+
+![Assembled board](/zx-sdc-assembled-board-1.JPG)
+
+![Assembled board](/zx-sdc-assembled-board-2.JPG)
+
+![Assembled board](/zx-sdc-assembled-board-3.JPG)
+
+![FATALL running](/zx-sdc-working-board-1.JPG)
+
+![FATALL running](/zx-sdc-working-board-2.JPG)
 
