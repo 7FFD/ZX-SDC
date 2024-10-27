@@ -39,13 +39,13 @@ Carefully check all signals, they are all important! As an example: /WAIT.
 
 ## Assembled and working board
 
-![Assembled board](/zx-sdc-assembled-board-1.JPG)
+![Assembled board](/zx-sdc-assembled-board-1.jpeg)
 
-![Assembled board](/zx-sdc-assembled-board-2.JPG)
+![Assembled board](/zx-sdc-assembled-board-2.jpeg)
 
-![Assembled board](/zx-sdc-assembled-board-3.JPG)
+![Assembled board](/zx-sdc-assembled-board-3.jpeg)
 
-![FATALL running](/zx-sdc-working-board-1.JPG)
+![FATALL running](/zx-sdc-working-board-1.jpeg)
 
-![FATALL running](/zx-sdc-working-board-2.JPG)
+![FATALL running](/zx-sdc-working-board-2.jpeg)
 
