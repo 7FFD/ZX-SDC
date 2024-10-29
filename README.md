@@ -49,3 +49,29 @@ Carefully check all signals, they are all important! As an example: /WAIT.
 
 ![FATALL running](/zx-sdc-working-board-2.jpeg)
 
+## Note on assembling board
+
+U11 and J4 has been added to the board for debugging purpose. Since board has been tested and doesn't need to be tuned if assembled correct, you can skip soldering U11 or use socket for it.
+J4: 1-2 SD Card, 2-3 U11 Test IC connection
+
+In case you decided to make sure that board assembled right and works correct, follow this checklist:
+ 1. Switch off computer
+ 2. Connect controller to ZXBUS Edge
+ 3. Remove SD Card if it was inserted at any slots
+ 4. Put jumper on J4 to 2-3
+ 5. Switch on computer - there are no leds should be ON
+ 6. Run commands from Basic:
+    + "PRINT IN 87", expected result: 0
+    + "PRINT IN 87", expected result: 255
+    + "OUT 119,1", both leds must switch ON
+    + "OUT 87,85"
+    + "PRINT IN 87", expected result: 85
+ 7. Switch off computer
+ 8. Put jumper on J4 to 1-2
+ 9. Insert SD Card at any slot
+ 10. Switch on computer
+ 11. Run FATALL from ROM or from BDI
+ 12. SD Card should be detected and content will be shown on right panel
+
+NOTE: SD Card must be formatted in FAT32/16!!!
+
