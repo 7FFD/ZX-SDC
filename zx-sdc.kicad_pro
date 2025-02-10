@@ -48,21 +48,26 @@
           "min_clearance": 0.5
         }
       },
-      "diff_pair_dimensions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
       "drc_exclusions": [
         "extra_footprint|141160500|143094300|125c163c-cb34-445c-a7a5-7a45129c3def|00000000-0000-0000-0000-000000000000",
         "extra_footprint|61531500|161988500|8f0890a4-78aa-438c-9fa7-a1c7be36a993|00000000-0000-0000-0000-000000000000",
         "extra_footprint|65722500|143021500|aa8f5ce7-fa89-4752-847c-08aa7ea6608a|00000000-0000-0000-0000-000000000000",
         "lib_footprint_issues|101119000|161988500|8f0890a4-78aa-438c-9fa7-a1c7be36a993|00000000-0000-0000-0000-000000000000",
-        "missing_footprint|0|0|00000000-0000-0000-0000-000000000000|00000000-0000-0000-0000-000000000000",
-        "net_conflict|125666500|56578500|ea7d361f-f39c-440e-a7aa-355acbdcbe8d|00000000-0000-0000-0000-000000000000"
+        "missing_footprint|0|0|00000000-0000-0000-0000-000000000000|00000000-0000-0000-0000-000000000000"
       ],
       "meta": {
         "version": 2
       },
       "rule_severities": {
         "annular_width": "error",
-        "clearance": "error",
+        "clearance": "warning",
         "connection_width": "warning",
         "copper_edge_clearance": "error",
         "copper_sliver": "warning",
@@ -172,8 +177,16 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [],
-      "via_dimensions": [],
+      "track_widths": [
+        0.0,
+        0.5
+      ],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        }
+      ],
       "zones_allow_external_fillets": false
     },
     "layer_presets": [],
